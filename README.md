@@ -26,6 +26,14 @@ Programmed with the official UOP Science Faculty weighting criteria for 100% pre
 * **BSc (General):** 1st Year (20%), 2nd Year (40%), 3rd Year (40%).
 * **BSc Hons:** 1st Year (20%), 2nd Year (20%), 3rd Year (30%), 4th Year (30%).
 
+```excel
+=IFERROR(VLOOKUP(T21,$U$5:$V$17,2,FALSE),"")
+```
+```excel
+=IF(D53=0,IF(A53=0,IF(D51=0,IF(A51=0,D49,(D49-(0.2*A51))/0.8),(D49-(0.2*A51)-(0.2*D51))/0.6),(D49-(0.2*A51)-(0.2*D51)-(0.3*A53))/0.3),D53)
+```
+
+
 ![GPA Summary](Screenshot%20(22).png)
 ![Summary for adding another subject](Screenshot%20(23).png)
 
@@ -33,6 +41,11 @@ Programmed with the official UOP Science Faculty weighting criteria for 100% pre
 * **Goal Tracking:** Users can set a target GPA, and the tool calculates the required GPA for the **remaining academic years**.
 * **Dynamic Simulation:** Allows "What-if" scenarios to see how a potential grade in a future semester affects the final degree classification (e.g., First Class, Second Upper).
 * **One-Touch Reset:** A VBA-based **"RESET"** function to clear all simulations.
+
+```excel
+=IFS(D37>=3.7,"1st CLASS",D37>=3.3,"2nd UPPER",D37>=3,"2nd LOWER",D37>=2.5,"PASS",D37>=0,"CAN NOT GET THE DEGREEE")
+```
+
 
 ![Target GPA Calculator](Screenshot%20(24).png)
 ![Scenario Simulation](Screenshot%20(25).png)
