@@ -4,6 +4,11 @@ A professional Excel-based GPA analyzer and predictive dashboard for Faculty of 
 
 An advanced, automated Excel-based analytical tool designed specifically for students at the **Faculty of Science, University of Peradeniya (UOP)**. This project demonstrates high-level proficiency in **Excel Automation, VBA, and Predictive Data Modeling**.
 
+![Main Dashboard](Screenshot (16).png)
+![Calculator & GPA analyzer](Screenshot (17).png)
+![Main Dashboard](Screenshot (18).png)
+![Result Table](Screenshot (19).png)
+
 ## 🚀 Key Features
 
 ### **1. Intelligent Data Entry Dashboard**
@@ -13,15 +18,24 @@ An advanced, automated Excel-based analytical tool designed specifically for stu
 * **Credit Value:** Identified via the last digit.
 * **VBA Powered Submission:** A custom **"SUBMIT"** button developed using **Excel VBA Macros** to transfer data from the dashboard to the main database instantly.
 
+![Data Entry Form](Screenshot (20).png)
+![Result Selection Dropdown](Screenshot (21).png)
+
 ### **2. Academic Weightage Logic**
 Programmed with the official UOP Science Faculty weighting criteria for 100% precision:
 * **BSc (General):** 1st Year (20%), 2nd Year (40%), 3rd Year (40%).
 * **BSc Hons:** 1st Year (20%), 2nd Year (20%), 3rd Year (30%), 4th Year (30%).
 
+![GPA Summary](Screenshot (22).png)
+![Summary for adding another subject](Screenshot (23).png)
+
 ### **3. Smart Target GPA Forecaster (Predictive Analysis)**
 * **Goal Tracking:** Users can set a target GPA, and the tool calculates the required GPA for the **remaining academic years**.
 * **Dynamic Simulation:** Allows "What-if" scenarios to see how a potential grade in a future semester affects the final degree classification (e.g., First Class, Second Upper).
 * **One-Touch Reset:** A VBA-based **"RESET"** function to clear all simulations.
+
+![Target GPA Calculator](Screenshot (24).png)
+![Scenario Simulation](Screenshot (25).png)
 
 ---
 
