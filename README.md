@@ -33,6 +33,7 @@ Programmed with the official UOP Science Faculty weighting criteria for 100% pre
 =IF(D53=0,IF(A53=0,IF(D51=0,IF(A51=0,D49,(D49-(0.2*A51))/0.8),(D49-(0.2*A51)-(0.2*D51))/0.6),(D49-(0.2*A51)-(0.2*D51)-(0.3*A53))/0.3),D53)
 ```
 
+[📺 Watch the Project Demo Video Here](GPA_Calculetor.mp4)
 
 ![GPA Summary](Screenshot%20(22).png)
 ![Summary for adding another subject](Screenshot%20(23).png)
@@ -45,8 +46,9 @@ Programmed with the official UOP Science Faculty weighting criteria for 100% pre
 ```excel
 =IFS(D37>=3.7,"1st CLASS",D37>=3.3,"2nd UPPER",D37>=3,"2nd LOWER",D37>=2.5,"PASS",D37>=0,"CAN NOT GET THE DEGREEE")
 ```
-
-
+ 
+[📺 Watch the Project Demo Video Here](Target_GPA.mp4)
+ 
 ![Target GPA Calculator](Screenshot%20(24).png)
 ![Scenario Simulation](Screenshot%20(25).png)
 
